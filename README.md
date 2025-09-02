@@ -1,5 +1,3 @@
-<img width="1440" height="6151" alt="UXUI Design lmn" src="https://github.com/user-attachments/assets/45fb4dba-6e2f-4de5-bfec-8c427f63c032" /># 📚 Landing Page - Livraria Mente Nutrida
-
 Este projeto é uma **Landing Page** desenvolvida em **HTML5** e **CSS3**, como parte de um desafio de prática em **Web Design e Front-End**.  
 O objetivo é simular a página inicial de uma livraria fictícia chamada **Mente Nutrida**, destacando a importância da leitura e oferecendo um design moderno, intuitivo e elegante.  
 
@@ -25,7 +23,7 @@ O objetivo é simular a página inicial de uma livraria fictícia chamada **Ment
 ---
 
 ## 📷 Pré-visualização
-![Uploading UXUI Design lmn.png…]()
+<img width="440" height="651" alt="UXUI Design lmn" src="https://github.com/user-attachments/assets/45fb4dba-6e2f-4de5-bfec-8c427f63c032" /># 📚 Landing Page - Livraria Mente Nutrida
 
 
 
