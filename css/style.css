@@ -1,0 +1,178 @@
+:root {
+    --ceanblue: #16344D;
+    --darkblue: #131D33;
+    --white: #FFFFFF;
+    --gray: #69727D;
+    --dark: #131C2C;
+    --cean: #6EC1E4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    overflow: hidden;
+}
+
+/* =============== Estilização da Bara do Cabeçalho =============== */
+#overheader {
+    width: 100vw;
+    color: var(--white);
+    background-color: var(--ceanblue);
+}
+
+.overheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.overheader p {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+/* =============== Estilização da Bara do Cabeçalho =============== */
+
+
+/* =============== Estilização do Cabeçalho =============== */
+#header {
+    width: 100vw;
+    color: var(--white);
+    background-color: var(--darkblue);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header img {
+    width: 150px;
+}
+
+.header #navmenu ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.header #navmenu ul li a {
+    color: var(--white);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.header #navmenu ul li a:hover {
+    color: var(--cean);
+}
+
+label[for="search"] {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    background-color: transparent;
+}
+
+input[type="search"] {
+    width: 400px;
+    height: 36px;
+    padding: 0 10px;
+    border: 1px solid var(--gray);
+    border-radius: 0; /* Sem raio nas bordas */
+    background-color: var(--white);
+    color: var(--darkblue);
+    font-size: 0.9rem;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+}
+
+input[type="search"]::placeholder {
+    color: var(--gray);
+    font-style: normal;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+.search-form button {
+  height: 36px;
+  width: 36px;
+  background-color: #2C2C2C;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons i {
+    font-size: 1.2rem;
+    color: var(--cean);
+    cursor: pointer;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 230px 0;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../assets/img/backgrounds/98.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#main .overlay {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(19, 54, 89, 0.7);
+}
+
+#main .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 45%;
+    z-index: 2;
+    position: relative;
+}
+
+#main h1 {
+    font-size: 3rem;
+    color: var(--white);
+}
+
+#main p {
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#main .btn {
+    width: 200px;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: var(--cean);
+}
+/* =============== Estilização do Cabeçalho =============== */
