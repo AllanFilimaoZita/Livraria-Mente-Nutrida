@@ -23,7 +23,8 @@ O objetivo é simular a página inicial de uma livraria fictícia chamada **Ment
 ---
 
 ## 📷 Pré-visualização
-<img width="440" height="651" alt="UXUI Design lmn" src="https://github.com/user-attachments/assets/45fb4dba-6e2f-4de5-bfec-8c427f63c032" /># 📚 Landing Page - Livraria Mente Nutrida
+<img width="440" height="651" alt="UXUI Design lmn" src="https://github.com/user-attachments/assets/45fb4dba-6e2f-4de5-bfec-8c427f63c032" />
+📚 Landing Page - Livraria Mente Nutrida
 
 
 
